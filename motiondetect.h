@@ -13,7 +13,7 @@ class MotionDetect
         int ledPIN;
         unsigned long elapsed_time;
         unsigned long interval = 1500;
-        unsigned long onTime = 180000;   // 3 sec
+        unsigned long onTime = 180000;   // 3 min
         
         MotionDetect(int sensorPIN,int ledPIN);
         void setpinSensor();
